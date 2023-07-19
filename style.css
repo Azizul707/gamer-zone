@@ -138,6 +138,7 @@
 
 /* !section two card container*/
 .cards-container {
+  padding: 5px 50px;
   display: flex;
 }
 
