@@ -264,7 +264,7 @@ footer{
   color: #f948b2;
 }
 .img-footer{
-  width: 5%;
+  width: 30%;
 }
 
 .sub-menu-container{
@@ -375,7 +375,7 @@ footer{
   
   .rectagne-btn-container{
   
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   
   .btn{
@@ -451,7 +451,7 @@ footer{
   }
   .rectagne-btn-container{
   
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   
   .btn{
