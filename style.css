@@ -7,8 +7,6 @@
 }
 
 /* ! Nav bar styles start here */
-header {
-}
 .nav-container {
   padding: 20px 180px;
   display: flex;
@@ -118,13 +116,13 @@ header {
   text-align: center;
   padding: 50px 0px;
 }
-.section-two-description h3 {
+.section-two-description-heading {
   font-size: 3rem;
   font-weight: 700;
   color: #0b0223;
 }
 
-.section-two-description span {
+.section-two-description-span {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -132,7 +130,7 @@ header {
   font-size: 3rem;
   font-weight: 700;
 }
-.section-two-description p{
+.section-two-description-pera{
   font-size: 1.2rem;
   font-weight: 400;
   color: #534C64;
@@ -188,6 +186,31 @@ header {
 
 
 
+/* ! section three play section styles start */
+
+.play-section{
+  padding-top: 100px;
+  padding-left: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.play-section img{
+  width: 100%;
+}
+
+.text-container{
+  padding-top: 100px;
+}
+
+.mini-image{
+  width: 100%;
+  margin-top: -200px;
+  margin-left: -150px;
+}
+
+
+
 
 
 
@@ -230,6 +253,35 @@ header {
     width: 100%;
     padding-right: 0px;
   }
+
+
+
+  /* ! main section two */
+
+  .cards-container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ! main section three */
+.play-section {
+  padding-top: 100px;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.mini-image {
+  width: 50%;
+  margin-top: -100px;
+  margin-left:0px;
+}
+
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -263,4 +315,28 @@ header {
     width: 100%;
     padding-right: 0px;
   }
+
+    /* ! main section two */
+
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      align-items: center;
+  }
+
+  .play-section{
+    padding-left: 5px;
+  }
+
+  .mini-image {
+    width: 50%;
+    margin-top: -143px;
+    margin-left: -92px;
+}
+  
+
+
+
+
 }
